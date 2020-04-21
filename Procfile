@@ -1,1 +1,1 @@
-web: gunicorn app:app --workers=4
+web: gunicorn covidmap.in:app --workers=4
