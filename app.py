@@ -468,4 +468,4 @@ def get_plot():
     save_plot()
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
